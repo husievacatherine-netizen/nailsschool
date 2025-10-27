@@ -621,6 +621,93 @@
         margin-left: 5px;
       }
     }
+/* ----------------------------- */
+/* 🔹 Блок "Наше розташування" */
+/* ----------------------------- */
+.location {
+  background: var(--bg-cream);
+  padding: 70px 0;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+
+.location h2 {
+  color: var(--brand-dark);
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.location-info {
+  max-width: 400px;
+  text-align: left;
+}
+
+.address, .hours {
+  color: var(--text-secondary);
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+.location-buttons {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.location-buttons .btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-map {
+  background: var(--brand-dark);
+  color: #fff;
+}
+
+.btn-map:hover {
+  background: var(--brand-lavender);
+}
+
+.btn-call {
+  background: var(--brand-olive);
+  color: #fff;
+}
+
+.btn-call:hover {
+  background: var(--brand-dark);
+}
+
+.location-photo img {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 768px) {
+  .location-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .location-info {
+    text-align: center;
+  }
+  .location-photo img {
+    width: 90%;
+  }
+}
 
   </style>
 </head>
@@ -819,6 +906,7 @@
     </div>
   </div>
 </section>
+
     <footer class="site-footer">
       <p>© 2025 Школа манікюру Cathhy. Усі права захищено 💗</p>
       <div class="social-links">
