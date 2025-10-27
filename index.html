@@ -29,16 +29,16 @@
     /* ----------------------------- */
     /* ГЛОБАЛЬНІ СТИЛІ */
     /* ----------------------------- */
-    :root {
-      --bg-light: #fcf2f3; /* Основний фон (за вашим запитом) */
-      --bg-cream: #fcf9d8; /* Світлий фон блоків (з палітри) */
-      --brand-dark: #933c4d; /* Темно-бордовий (акценти, футер, хедер) */
-      --brand-olive: #9b9a7e; /* Оливковий (кнопки) */
-      --brand-lavender: #c99fcd; /* Лавандовий (іконки, рамки) */
-      --text-dark: #333;
-      --text-light: #f0f0f0;
-      --text-secondary: #555;
-    }
+     :root {
+  --bg-light: #fff9fb;
+  --bg-cream: #f7f4fe;
+  --brand-dark: #3d528f; /* синій */
+  --brand-olive: #f7a6c9; /* пастельно-рожевий */
+  --brand-lavender: #c5d0f6; /* світло-блакитний */
+  --text-dark: #2d2d2d;
+  --text-light: #fff;
+  --text-secondary: #555;
+}
 
     body {
       margin: 0;
@@ -792,7 +792,33 @@
           <button class="carousel-btn next-btn" id="nextBtn">❯</button>
         </div>
       </section>
+<section class="location" id="location">
+  <div class="container">
+    <h2>Наше розташування</h2>
 
+    <div class="location-box">
+      <div class="location-info">
+        <p class="address">
+          📍 <strong>м. Одеса, вул. Преображенська, 8</strong><br>
+          (центр міста, біля Соборної площі)
+        </p>
+        <p class="hours">
+          🕒 Працюємо щодня з <strong>10:00 до 19:00</strong><br>
+          Навчання також <strong>онлайн</strong> 💻
+        </p>
+
+        <div class="location-buttons">
+          <a href="https://maps.google.com/?q=Одеса, вул. Преображенська 8" target="_blank" class="btn btn-map">Прокласти маршрут</a>
+          <a href="tel:+380000000000" class="btn btn-call">Зателефонувати</a>
+        </div>
+      </div>
+
+      <div class="location-photo">
+        <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wLmXv2LBO4aelZr6-TM-Ug&cb_client=search.gws-prod.gps&w=408&h=240&yaw=95.3068&pitch=0&thumbfov=100" alt="Школа манікюру в Одесі">
+      </div>
+    </div>
+  </div>
+</section>
     <footer class="site-footer">
       <p>© 2025 Школа манікюру Cathhy. Усі права захищено 💗</p>
       <div class="social-links">
@@ -925,6 +951,7 @@
 
 </body>
 </html>
+
 
 
 
