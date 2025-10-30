@@ -8,7 +8,7 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "twby12ja9q");
 </script>
-  <!-- Google tag (gtag.js) -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LH4JPDKMCV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -26,15 +26,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 
   <style>
-    /* ----------------------------- */
-    /* ГЛОБАЛЬНІ СТИЛІ */
-    /* ----------------------------- */
+ 
      :root {
   --bg-light: #fff9fb;
   --bg-cream: #f7f4fe;
-  --brand-dark: #3d528f; /* синій */
-  --brand-olive: #f7a6c9; /* пастельно-рожевий */
-  --brand-lavender: #c5d0f6; /* світло-блакитний */
+  --brand-dark: #3d528f; 
+  --brand-olive: #f7a6c9; 
+  --brand-lavender: #c5d0f6; 
   --text-dark: #2d2d2d;
   --text-light: #fff;
   --text-secondary: #555;
@@ -42,11 +40,11 @@
 
     body {
       margin: 0;
-      font-family: 'Comfortaa', sans-serif; /* Оновлений шрифт */
+      font-family: 'Comfortaa', sans-serif; 
       background-color: var(--bg-light);
       color: var(--text-dark);
       line-height: 1.6;
-      /* === ЗМІНА #1: Прибрано відступ зверху, щоб з'єднати хедер з навігацією === */
+      
     }
 
     h1, h2, h3 {
@@ -106,32 +104,29 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    /* Плавна прокрутка до якоря */
     html {
       scroll-behavior: smooth;
       scroll-padding-top: 90px;
     }
 
-    /* ----------------------------- */
-    /* 🔹 НАВІГАЦІЯ (Navbar) */
-    /* ----------------------------- */
+    
     .navbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: var(--brand-dark); /* Новий колір */
+      background-color: var(--brand-dark); 
       padding: 10px 5%;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       
-      /* "Прилипання" до верху */
+      
       position: fixed;
       top: 0;
       left: 0;
-      width: 90%; /* (100% - 10% padding) */
+      width: 90%; 
       z-index: 1000;
     }
     .navbar img {
-      width: 50px; /* Менший логотип для navbar */
+      width: 50px; 
       height: auto;
       border-radius: 50%;
     }
@@ -140,7 +135,7 @@
       gap: 25px;
     }
     .nav-links a {
-      color: var(--text-light); /* Світлий текст на темному фоні */
+      color: var(--text-light); 
       font-weight: 600;
       font-size: 0.95em;
       padding-bottom: 5px;
@@ -151,38 +146,32 @@
       border-bottom-color: var(--brand-lavender);
     }
 
-    /* ----------------------------- */
-    /* 🔹 HERO SECTION (HEADER) */
-    /* ----------------------------- */
+    
     header.site-header {
       text-align: center;
-      /* Збільшуємо верхній відступ, щоб компенсувати відсутність padding у body */
       padding: 120px 20px 80px; 
       border-radius: 0 0 50px 50px;
       margin-bottom: 40px;
       
-      /* Фон з зображенням 5.jpg */
       background-image: linear-gradient(rgba(40, 40, 40, 0.6), rgba(40, 40, 40, 0.6)), url('5.jpg');
       background-size: cover;
       background-position: center;
       
-      color: #fff; /* Білий текст на темному фоні */
+      color: #fff; 
     }
     header.site-header h1 {
       font-size: 2.5em;
-      color: #fff; /* Білий заголовок */
+      color: #fff; 
       margin-bottom: 15px;
     }
     header.site-header p {
       font-size: 1.1em;
       max-width: 600px;
       margin: 0 auto 30px;
-      color: #eee; /* Світло-сірий текст */
+      color: #eee; 
     }
 
-    /* ----------------------------- */
-    /* 🔹 МАКЕТ (2 КОЛОНКИ) */
-    /* ----------------------------- */
+    
     .site-content {
       width: 90%;
       max-width: 1200px;
@@ -193,16 +182,13 @@
       gap: 30px;
     }
     .main-content {
-      flex: 2; /* ~66% ширини */
+      flex: 2; 
     }
     .aside {
-      flex: 1; /* ~33% ширини */
+      flex: 1; 
       position: relative;
     }
 
-    /* ----------------------------- */
-    /* 🔹 БАНЕР (під шапкою) */
-    /* ----------------------------- */
     .banner {
       margin-bottom: 40px;
     }
@@ -211,9 +197,6 @@
       border-radius: 10px;
     }
     
-    /* ----------------------------- */
-    /* 🔹 ПРО НАС (з фото 2,3,4) */
-    /* ----------------------------- */
     .about-us {
       background: var(--bg-cream);
       padding: 40px;
@@ -230,7 +213,7 @@
       flex-direction: column;
     }
     .about-grid-left img:first-child {
-      margin-bottom: 20px; /* Відступ між 2.jpg та 3.jpg */
+      margin-bottom: 20px; 
     }
     .about-grid-right {
       flex: 1;
@@ -238,7 +221,7 @@
     .about-grid-right img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* Заповнює блок, зберігаючи пропорції */
+      object-fit: cover; 
     }
     .about-text p {
       color: var(--text-secondary);
@@ -249,9 +232,7 @@
       font-weight: 700;
     }
 
-    /* ----------------------------- */
-    /* 🔹 ПЕРЕВАГИ (Features) */
-    /* ----------------------------- */
+    
     .features-grid {
       padding: 40px 0;
     }
@@ -276,7 +257,7 @@
       align-items: center;
     }
     .feature .feature-icon {
-      font-size: 2.5em; /* Розмір емодзі */
+      font-size: 2.5em; 
       color: var(--brand-dark);
       line-height: 1;
     }
@@ -290,9 +271,6 @@
       margin: 0;
     }
 
-    /* ----------------------------- */
-    /* 🔹 КУРСИ */
-    /* ----------------------------- */
     .courses .features {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -327,7 +305,6 @@
         margin-top: 20px;
     }
 
-    /* === ДОДАНО: Стиль для кнопки "Купити" === */
     .buy-button {
       margin-top: 20px;
       padding: 12px 30px;
@@ -335,18 +312,15 @@
     }
 
 
-    /* ----------------------------- */
-    /* 🔹 ФОРМА (Aside) */
-    /* ----------------------------- */
     .signup-form {
       background: var(--bg-cream);
       padding: 30px;
       border-radius: 20px;
       box-shadow: 0 8px 30px rgba(0,0,0,0.07);
       
-      /* Прилипання бічної колонки */
+     
       position: sticky;
-      top: 90px; /* 70px (navbar) + 20px (відступ) */
+      top: 90px; 
     }
     .form-header {
       text-align: center;
@@ -368,7 +342,7 @@
       outline: none;
       font-size: 1em;
       font-family: 'Comfortaa', sans-serif;
-      box-sizing: border-box; /* Важливо для 100% ширини */
+      box-sizing: border-box; 
     }
     .form-content input[type="text"]:focus {
       border-color: var(--brand-olive);
@@ -385,9 +359,6 @@
       margin-top: 15px;
     }
 
-    /* ----------------------------- */
-    /* 🔹 ВІДГУКИ (Карусель) */
-    /* ----------------------------- */
     .graduates { padding-top: 40px; }
     .carousel-container {
       position: relative;
@@ -453,14 +424,12 @@
     .carousel-btn:hover { background-color: var(--brand-olive); }
 
 
-    /* ----------------------------- */
-    /* 🔹 ФУТЕР (Footer) */
-    /* ----------------------------- */
+   
     .site-footer {
       text-align: center;
       padding: 30px;
-      background: var(--brand-dark); /* Новий колір */
-      color: var(--text-light); /* Світлий текст */
+      background: var(--brand-dark); 
+      color: var(--text-light); 
       margin-top: 40px;
     }
     .site-footer p {
@@ -473,22 +442,19 @@
       gap: 20px;
     }
     .social-links a {
-      color: var(--text-light); /* Світлий колір */
+      color: var(--text-light); 
     }
     .social-links a svg {
-      width: 24px; /* Встановлюємо розмір SVG */
+      width: 24px; 
       height: 24px;
-      fill: currentColor; /* SVG успадковує колір від 'a' */
+      fill: currentColor; 
       transition: all 0.3s ease;
     }
     .social-links a:hover svg {
-      fill: var(--brand-lavender); /* Колір при наведенні */
+      fill: var(--brand-lavender); 
       transform: scale(1.1);
     }
     
-    /* ----------------------------- */
-    /* 🔹 МОДАЛЬНЕ ВІКНО "ДЯКУЄМО" */
-    /* ----------------------------- */
     .modal-overlay {
       position: fixed;
       top: 0;
@@ -544,9 +510,6 @@
       background-color: var(--brand-dark);
     }
 
-    /* ----------------------------- */
-    /* 🔹 АДАПТИВНІСТЬ */
-    /* ----------------------------- */
     @media (max-width: 900px) {
       .main-layout {
         flex-direction: column;
@@ -573,14 +536,14 @@
 
     @media (max-width: 768px) {
       body {
-        padding-top: 0; /* Прибираємо і тут */
+        padding-top: 0; 
       }
       .navbar {
         padding: 10px 4%;
         width: 92%;
         flex-direction: column;
         gap: 10px;
-        position: static; /* Скасовуємо фіксацію на малих екранах */
+        position: static; 
       }
       html {
         scroll-padding-top: 20px;
@@ -621,9 +584,7 @@
         margin-left: 5px;
       }
     }
-/* ----------------------------- */
-/* 🔹 Блок "Наше розташування" */
-/* ----------------------------- */
+
 .location {
   background: var(--bg-cream);
   padding: 70px 0;
@@ -731,7 +692,7 @@
       <h1>Стань сертифікованим майстром манікюру з Cathhy</h1>
       <p>Освой beauty-професію всього за 1 місяць та почни заробляти від 25 000₴.
         Зроби перший крок до улюбленої справи!</p>
-      <a href="#courses" class="btn-primary">Записатися на курс</a>
+     <a href="#courses" class="btn-primary" onclick="gtag('event', 'button_click', { 'event_category': 'CTA', 'event_label': 'Записатися на курс', 'link_url': '#courses' });">Записатися на курс</a>
     </div>
   </header>
 
@@ -934,9 +895,6 @@
  <script>
   document.addEventListener('DOMContentLoaded', function() {
       
-    /* ---------------------------------- */
-    /* 1. ЛОГІКА КАРУСЕЛІ (Без змін) */
-    /* ---------------------------------- */
     const slidesContainer = document.getElementById('slidesContainer');
     const slides = Array.from(slidesContainer.children);
     const nextBtn = document.getElementById('nextBtn');
@@ -945,7 +903,7 @@
     const totalSlides = slides.length;
 
     function updateCarousel() {
-      // Запобігаємо помилці, якщо на сторінці немає слайдів
+      
       if (slides.length === 0) return; 
       const slideWidth = slides[0].offsetWidth;
       slidesContainer.style.transform = 'translateX(' + (-slideWidth * currentIndex) + 'px)';
@@ -965,70 +923,55 @@
     updateCarousel();
 
 
-    /* ---------------------------------- */
-    /* 2. НОВА ЛОГІКА МОДАЛЬНОГО ВІКНА */
-    /* ---------------------------------- */
-
-    // Отримуємо всі потрібні елементи
+    
     const modal = document.getElementById('thankYouModal');
-    const modalTitle = document.getElementById('modalTitle'); // Новий елемент
-    const modalText = document.getElementById('modalText');   // Новий елемент
+    const modalTitle = document.getElementById('modalTitle'); 
+    const modalText = document.getElementById('modalText');  
     const closeModalBtn = document.getElementById('closeModalBtn');
     const form = document.getElementById('mainSignupForm');
     
-    // Зберігаємо оригінальний текст модального вікна
     const originalModalTitle = modalTitle.innerText;
     const originalModalText = modalText.innerText;
 
-    // --- Логіка для форми реєстрації (id="mainSignupForm") ---
     form.addEventListener('submit', function(event) {
       event.preventDefault();
       
-      // Встановлюємо текст "за замовчуванням" для форми
       modalTitle.innerText = originalModalTitle;
       modalText.innerText = originalModalText;
       
       modal.classList.add('active');
     });
 
-    // --- 🟢 НОВА ЛОГІКА для кнопок "Купити курс" ---
     const buyButtons = document.querySelectorAll('.buy-button');
 
     buyButtons.forEach(function(button) {
       button.addEventListener('click', function(event) {
-        event.preventDefault(); // Забороняємо посиланню переходити по href="#"
+        event.preventDefault(); 
 
-        // Знаходимо батьківський блок (.feature) і беремо з нього назву курсу (h2)
         const courseCard = button.closest('.feature');
         const courseName = courseCard.querySelector('h2').innerText;
 
-        // Встановлюємо новий текст для модального вікна
         modalTitle.innerText = 'Заявка на курс!';
         modalText.innerText = 'Ви подали заявку на курс "' + courseName + '". Наш менеджер скоро зв\'яжеться з вами для уточнення деталей.';
         
-        // Показуємо модальне вікно
         modal.classList.add('active');
       });
     });
 
 
-    // --- Універсальна функція для закриття модального вікна ---
     function closeModal() {
       modal.classList.remove('active');
-      form.reset(); // Очищуємо поля форми
+      form.reset(); 
       
-      // Через 300мс (час анімації) повертаємо текст модалки до початкового
       setTimeout(() => {
           modalTitle.innerText = originalModalTitle;
           modalText.innerText = originalModalText;
       }, 300);
     }
 
-    // Обробники для закриття
     closeModalBtn.addEventListener('click', closeModal);
     
     modal.addEventListener('click', function(event) {
-      // Закриваємо тільки якщо клік був по темному фону (overlay)
       if (event.target === modal) {
         closeModal();
       }
@@ -1039,6 +982,7 @@
 
 </body>
 </html>
+
 
 
 
